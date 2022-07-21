@@ -75,7 +75,7 @@ resource "google_compute_instance" "default" {
 
   boot_disk {
     initialize_params {
-      image = "Ubuntu 18.04 LTS"
+      image = "ubuntu-os-cloud/ubuntu-1804-lts"
     }
   }
 
