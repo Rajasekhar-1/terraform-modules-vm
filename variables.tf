@@ -3,7 +3,7 @@
 
 variable "project_id" {
   description = "The ID of the project where this VPC will be created"
-  default     = "q-gcp-7959-genesysstaff-22-06"
+  default     = "rising-ocean-339306"
 }
 
 variable "network_name" {
